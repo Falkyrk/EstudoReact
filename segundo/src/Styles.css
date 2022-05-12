@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  height: 20vh;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(rgb(0, 0, 0), rgb(38, 48, 38), rgb(30, 30, 44));
+}
+.header img {
+  width: 60px;
+  height: 60px;
+}
