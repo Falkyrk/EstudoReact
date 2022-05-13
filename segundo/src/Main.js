@@ -1,6 +1,6 @@
 function Main(){
     return (
-        <div>
+        <div className="main">
             <h4>Bem-Estar</h4>
             <ul>
                 <li>Reiki - Master</li>

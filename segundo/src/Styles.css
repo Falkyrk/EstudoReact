@@ -7,9 +7,26 @@
   height: 20vh;
   display: flex;
   flex-direction: row;
-  background-color: rgb(rgb(0, 0, 0), rgb(38, 48, 38), rgb(30, 30, 44));
+  background-color: rgb(129, 113, 113);
+  justify-content: center;
+  align-items: center;
 }
 .header img {
   width: 60px;
   height: 60px;
+}
+.main {
+  height: 65vh;
+  padding: 20px;
+}
+.footer {
+  height: 15vh;
+  background-color: rgb(44, 39, 37);
+  color: #fff;
+  text-align: center;
+}
+.footer a {
+  text-decoration: none;
+  display: block;
+  color: #fff;
 }

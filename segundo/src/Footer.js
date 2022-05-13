@@ -1,6 +1,6 @@
 function Footer(){
     return(
-        <div>
+        <div className="footer">
             <h2>
                 Consulte a programação completa em
                 <a href="http://www.sp.senac.com.br/tatuape">
