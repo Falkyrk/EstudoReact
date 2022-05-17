@@ -38,3 +38,42 @@
   margin: 5px;
   height: 70vh;
 }
+.container .conteudo h2 {
+  font-size: 30pt;
+  font-weight: lighter;
+  font-family: "Lucida Sans";
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.items div {
+  width: 30%;
+  height: 200px;
+  padding: 30px;
+  background-color: white;
+  box-shadow: 0px 0px 5px silver;
+  margin: 10px;
+  cursor: pointer;
+  transition: ease 0.5s;
+}
+.items div:hover {
+  transform: scale(1.1);
+  background-color: black;
+  color: white;
+}
+.items {
+  display: flex;
+  flex-direction: row;
+}
+
+.itens h3 {
+  font-family: "Lucida Sans";
+  font-size: 15pt;
+}
+.itens p {
+  font-family: "Lucida Sans";
+  font-size: 12pt;
+}
+.items .preco {
+  color: red;
+}

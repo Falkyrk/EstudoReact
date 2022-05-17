@@ -1,12 +1,13 @@
 import Superior from "./components/header/Superior";
-import Conteudo from "./components/main/Conteudo";
+import Container from "./components/main/Container";
+
 import"./css/Styles.css";
 
 function App() {
   return (
     <div>
       <Superior/>
-      <Conteudo/>
+      <Container/>
     </div>
   );
 }
