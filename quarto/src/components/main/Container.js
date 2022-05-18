@@ -13,6 +13,13 @@ export default function Container(){
     //usando um colchetes ao final da instrução
     //Para obter os dados iremos usar o comando fetch entro useEffect
 
+    const [nome,setNome] = useState([
+        {
+            autor:"",
+            mensagem:"",
+        },
+    ]);
+
     const [produtos,setProdutos] = useState([
         {
             id:"",
@@ -32,10 +39,16 @@ export default function Container(){
         });
 
     },[]);
+
+    const carregaMensagem = (mensagem) => 
+    {
+         setNome (mensagem);
+        
+    };
     return (
         <div className="container">
-            <Mensagens dados = {produtos}/>
-            <Conteudo dados={produtos}/>
+            <Mensagens info={nome}/>
+            <Conteudo dados={produtos} acao = {carregaMensagem}/>
         </div>
     );
 }
